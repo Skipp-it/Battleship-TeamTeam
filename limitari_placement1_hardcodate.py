@@ -50,6 +50,7 @@ def placement1():
             else:
                 print("Ships are too close")
                 continue
+         #PANA AICI
         else:
             print("Invalid input!")
             continue
