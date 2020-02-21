@@ -62,6 +62,17 @@ def print_board(board):
         print_board(placement1_list)
         shipsx2 -= 1
         
+def get_shot_input():
+    while True:
+        shot = str(input("Choose a position to shot: ").lower())
+        if shot[0] in ["a", "b", "c", "d", "e"] and shot[1] in ["1", "2", "3", "4", "5"]:
+            row = ord(shot[0])-97
+            col = int(shot[1])-1
+            return (row, col)
+        else:
+            print("Invalid input. Try again.")
+            continue
+        
         
 def main():
   placement1_list = init_list()
