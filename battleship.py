@@ -47,7 +47,7 @@ def print_board(board):
         place = str(
             input("Choose a position to place your ship's head: ").lower())
         direction = input(
-            "Choose on wich direction you want to place your ship (N,S,E,W) :").lower()
+            "Choose on which direction you want to place your ship (N,S,E,W) :").lower()
         row = ord(place[0])-97
         col = int(place[1])-1
         placement1_list[row][col] = "X"
