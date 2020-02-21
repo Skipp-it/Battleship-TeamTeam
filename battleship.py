@@ -1,3 +1,25 @@
+l = """
+ ______     ______     ______   ______   __         ______     ______     __  __     __     ______  
+/\  __ \   /\  __ \   /\__  _\ /\__  _\ /\ \       /\  ___\   /\  ___\   /\ \_\ \   /\ \   /\  __ \ 
+\ \  __<   \ \  __ \  \/_/\ \/ \/_/\ \/ \ \ \____  \ \  __\   \ \___  \  \ \  __ \  \ \ \  \ \  __/ 
+ \ \_____\  \ \_\ \_\    \ \_\    \ \_\  \ \_____\  \ \_____\  \/\_____\  \ \_\ \_\  \ \_\  \ \_\   
+  \/_____/   \/_/\/_/     \/_/     \/_/   \/_____/   \/_____/   \/_____/   \/_/\/_/   \/_/   \/_/   
+                                                                                                    
+                                                  # #  ( )                                          
+                                               ___#_#___|__                                         
+                                           _  |____________|  _                                     
+                                    _=====| | |            | | |==== _                              
+                              =====| |.---------------------------. | |====                         
+                <--------------------'   .  .  .  .  .  .  .  .   '--------------/                  
+                  \                                                             /                   
+                   \___________________________________________________________/                    
+               wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww                
+             wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww               
+                wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww                 
+"""
+
+
+
 def init_list():
 
     board = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [
@@ -75,6 +97,7 @@ def get_shot_input():
         
         
 def main():
+  print(l)
   placement1_list = init_list()
   placement1()
   
